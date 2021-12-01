@@ -1,0 +1,22 @@
+{
+  "name": "rocketleagueapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreygaggino/rocketleagueapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreygaggino/rocketleagueapi/issues"
+  },
+  "homepage": "https://github.com/jeffreygaggino/rocketleagueapi#readme",
+  "dependencies": {
+    "fastify": "^3.24.1"
+  }
+}
