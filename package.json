@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "fastify start server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/jeffreygaggino/rocketleagueapi#readme",
   "dependencies": {
-    "fastify": "^3.24.1"
+    "@vercel/node": "^1.12.1",
+    "fastify": "^3.24.1",
+    "fastify-cli": "^2.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
